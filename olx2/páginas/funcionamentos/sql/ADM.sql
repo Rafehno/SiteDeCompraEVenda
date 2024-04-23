@@ -1,0 +1,1 @@
+ - onde esta salvo os dados de ADMS, não deve ser de livre acesso

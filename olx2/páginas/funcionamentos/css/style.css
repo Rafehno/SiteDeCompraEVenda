@@ -1,0 +1,208 @@
+.white-mode {
+    --bg:aliceblue;
+    --filtrobg:rgb(226, 232, 236);
+    --fontcolor: black;
+    --placeholdercolor: rgb(34, 34, 34);
+    --bntcolor: purple;
+    --bordacor: #800080;
+    --modalcor: #911e8f;
+    --pesquisacor: rgba(0, 0, 0, 0.103);
+}
+.dark-mode {
+    --fontcolor:aliceblue;
+    --filtrobg:rgb(19, 19, 19);
+    --placeholdercolor: rgb(230, 230, 230);
+    --bg:black;
+    --bntcolor: crimson;
+    --bordacor: crimson;
+    --modalcor: rgb(233, 65, 98);
+    --pesquisacor: #ffffff69;
+}
+.bnt {
+    background-color: var(--modalcor);
+    border-radius: 15%;
+    width: 40px;
+    height: 40px;
+}
+*{
+    color:var(--fontcolor);
+}
+body{
+    background: var(--bg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu{
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+}
+.logo{
+    position: absolute;
+    left: 1%;
+}
+.filtros{
+    position: absolute;
+    top: 8.5%;
+    left: 2%;
+}
+.filtro{
+    border: 3px var(--bordacor);
+    border-radius: 2%;
+    font-size: medium;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 95%;
+    background: var(--filtrobg);
+}
+.rodape{
+    position: absolute;
+    bottom: 3%;
+}
+.SAC{
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+}
+.barraPesquisa{
+    position: absolute;
+    top: 12%;
+    left: 2%;
+    height: 75px;
+    width: 95%;
+    font-size: larger;
+    border-radius: 1.2%;
+    background-color: var(--pesquisacor);
+    color:var(--fontcolor);
+}
+.barraPesquisa::placeholder {
+    color: var(--placeholdercolor);
+    text-align: center;
+  }
+.barraCima{
+    position: absolute;
+    height: 7%;
+    width: 99%;
+    background-color: var(--bordacor);
+    border-radius: 1%;
+}
+.cantoEsquerdo{
+    position: absolute;
+    left: 0.1%;
+    height: 7%;
+    width: 2%;
+    border-radius: 15%;
+    background-color:var(--bordacor);
+}
+.cantoDireito{
+    position: absolute;
+    right: 0.1%;
+    height: 7%;
+    width: 2%;
+    border-radius: 15%;
+    background-color:var(--bordacor);
+}
+.cantoEsquerdoB{
+    position: absolute;
+    left: 0.1%;
+    bottom: 2%;
+    height: 7%;
+    width: 2%;
+    border-radius: 15%;
+    background-color:var(--bordacor);
+}
+.cantoDireitoB{
+    position: absolute;
+    right: 0.1%;
+    bottom: 2%;
+    height: 7%;
+    width: 2%;
+    border-radius: 15%;
+    background-color:var(--bordacor);
+}
+.barraBaixo{
+    position: absolute;
+    bottom: 2%;
+    height: 7%;
+    width: 99%;
+    background-color:var(--bordacor);
+    border-radius: 1%;
+}
+.modal{
+    width: 18%;
+    height: 25%;
+    background-color: var(--modalcor);
+    position: absolute;
+    top: 7%;
+    left: 81.5%;
+    backdrop-filter: blur(10px);
+    display: none;
+    border-radius: 15%;
+}
+.notific {
+    background-color: var(--modalcor);
+    border-radius: 15%;
+    border-color: var(--bordacor);
+    position: absolute;
+    right: 320%;
+    top: 25%;
+    display: none;
+}
+.logar{
+    font-style:inherit;
+    display: none;
+    position: absolute;
+    right: 180%;
+    top: 5%;
+}
+.user{
+    display: none;
+}
+.cadastro{
+    font-style:inherit;
+    display: none;
+    position: absolute;
+    right: 400%;
+    top: 5%;
+}
+.fotoUser{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 150%;
+    top: 5%;
+}
+.botaopesquisa{
+    border: aqua;
+    border-radius: 50%;
+    background-color: var(--modalcor);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 12.5%;
+    right: 2.7%;
+}
+.anuncioDestaque {
+    border: aqua;
+    border-radius: 15%;
+    background-color: var(--bordacor);
+    width: 30%;
+    height: 64%;
+    position: absolute;
+}
+.tituloAnuncioDestaque {
+    border: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 250%;
+    position: absolute;
+}
+.precoAnuncioDestaque{
+    position: absolute;
+    border: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 270%;
+}
+.A{
+    display: flex;
+}

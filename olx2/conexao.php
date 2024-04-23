@@ -1,0 +1,1 @@
+ - serve para buscar os dados no DB, esta função pode ser facilmente apagada ou substituida
