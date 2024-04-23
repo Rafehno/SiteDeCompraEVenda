@@ -50,3 +50,12 @@ um site simples de compra e venda, ao estilo OLX.
 
       - JS
         > function.js = onde são setadas as funções em JS
+      
+      - sql
+        > ADM.sql = onde é salvo os logins de ADMS (usuario (PK), nome e senha (MD5))
+        >
+        > analise.sql = onde é salvo os anuncios em analise (foto, titulo, preço, descrição, tags, codigo(PK) e usuario)
+        >
+        > anuncios.sql = onde é salvo os anuncios (foto, titulo, preço, descrição, tags, codigo(PK) e usuario)
+        >
+        > usuarios.sql = onde é salvo os logins de usuários (usuario (PK), nome e senha (MD5))
